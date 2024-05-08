@@ -22,6 +22,15 @@ export default function MyRGBPanel() {
 
   return (
     <>
+      <div className="class-title">
+        <h2
+          style={{
+            color: `rgb(${r}, ${g}, ${b})`,
+          }}
+        >
+          5b0g0024 莊鈞凱 Slider
+        </h2>
+      </div>
       <div className="color-group">
         <div
           className="color-item"
